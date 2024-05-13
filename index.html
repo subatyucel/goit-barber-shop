@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarberShop</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <!-- OPEN SANS -->
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,9 +14,15 @@
     />
   </head>
   <body>
+    <!-- HEADER - HERO SECTİON -->
     <header class="header">
       <aside class="sidebar">
-        <img src="./images/logo.svg" width="68.93" height="55.46" />
+        <img
+          src="./images/logo.svg"
+          width="68.93"
+          height="55.46"
+          alt="BarberShop logo"
+        />
         <ul class="sidebar-list">
           <li><div class="sidebar-line"></div></li>
           <li><a class="sidebar-link" href="">Instagram</a></li>
@@ -42,7 +48,9 @@
                 >
               </li>
               <li>
-                <a class="main-nav-btn main-nav-link" href="">BOOK A SERVICE</a>
+                <a class="main-nav-btn btn-primary main-nav-link" href=""
+                  >BOOK A SERVICE</a
+                >
               </li>
             </ul>
           </address>
@@ -66,5 +74,36 @@
         </div>
       </div>
     </header>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+      <div class="container about-container">
+        <div class="about-img-container">
+          <img src="./images/section1-left.jpg" alt="Brushing beard picture" />
+          <img src="./images/section1-right.jpg" alt="shaving beard picture" />
+        </div>
+
+        <div class="about-text-container">
+          <ul class="about-text-list">
+            <li><div class="about-line"></div></li>
+            <li><h2 class="about-heading">ABOUT</h2></li>
+          </ul>
+          <h3 class="about-title">The Best Barbershop in Your City</h3>
+          <p class="about-slogan">
+            If you want to add more confidence to your image, <br />you are
+            definitely in the right place.
+          </p>
+          <p class="about-text">
+            We are a team that never rests on its laurels and yearns for change.
+            <br />And once you fall into the hands of our master, you will never
+            be the same again. We are a team that is always on the same
+            wavelength with clients. Therefore, we are always ready to improve
+            everyone who comes to us!
+          </p>
+
+          <a class="about-btn btn-secondary" href="">BOOK A SERVICE</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
