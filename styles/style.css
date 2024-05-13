@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-  padding: 130px 55px;
+  padding: 130px;
 }
 
 /* TYPOGRAPHY */
@@ -72,7 +72,6 @@ a {
 /* HEADER */
 .header {
   display: flex;
-  max-width: 1280px;
 }
 /* SIDEBAR */
 .sidebar {
@@ -193,7 +192,13 @@ a {
 .about-img-container {
   display: flex;
   gap: 30px;
-  flex-shrink: 0;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .about-line {
@@ -218,6 +223,7 @@ a {
   line-height: 49.31px;
   letter-spacing: 0.05em;
   text-align: left;
+  margin: 0;
 }
 
 .about-slogan {
@@ -228,6 +234,7 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   color: #555555;
+  margin: 0;
 }
 .about-text {
   font-family: "Open Sans", sans-serif;
@@ -237,17 +244,13 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
   color: #555555;
-  margin-bottom: 40px;
+  margin: 0;
 }
 
 .about-text-list {
   display: flex;
   align-items: center;
   gap: 20px;
-}
-
-.about-text-container {
-  width: 536px;
 }
 
 .btn-secondary {
@@ -273,4 +276,35 @@ a {
 .about-container {
   display: flex;
   gap: 64px;
+}
+
+/* SERVICES */
+.services {
+  background-image: url("../images/hero-first.jpg");
+  background-size: cover;
+  position: relative;
+  z-index: -2;
+}
+
+.services::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.services-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.services-line {
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
 }
