@@ -113,6 +113,7 @@ a {
 
 /* HERO */
 .hero {
+  background: #000;
   background-image: url("../images/hero-first.jpg");
   background-size: cover;
   padding-top: 40px;
