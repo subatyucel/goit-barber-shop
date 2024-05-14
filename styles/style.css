@@ -80,7 +80,7 @@ a {
 /* SIDEBAR */
 .sidebar {
   width: 155px;
-  height: 680px;
+  height: 705px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -284,22 +284,10 @@ a {
 
 /* SERVICES */
 .services {
-  background-image: url("../images/prices.jpg");
+  background-color: rgba(0, 0, 0, 1);
+  background-image: url("../images/hero-first.jpg");
   background-size: cover;
-  position: relative;
-  z-index: -2;
   text-align: center;
-}
-
-.services::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: -1;
 }
 
 .services-list {
@@ -411,4 +399,72 @@ td {
 
 .right-fourth-line {
   width: 242px;
+}
+
+.old-school-container {
+  display: flex;
+  gap: 200px;
+  padding: 185px;
+}
+
+.card-title {
+  display: inline-block;
+  margin: 0;
+}
+
+.card-plus {
+  line-height: 21.79px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff6c00;
+  display: inline-block;
+  margin: 0;
+}
+
+.card {
+  width: 200px;
+  height: 133px;
+  background-color: #f7f7f7;
+  font-family: "open sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 57.2px;
+  letter-spacing: 0.05em;
+
+  padding: 20px 24px;
+}
+
+.card-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 14.98px;
+  margin: 0;
+  text-align: center;
+}
+
+.card-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.old-school-card-container {
+  display: flex;
+  gap: 30px;
+}
+
+.upper-card-container {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.down-card-container {
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.old-school-title {
+  margin-bottom: 20px;
 }
