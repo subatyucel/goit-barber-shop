@@ -33,9 +33,11 @@
         <div class="main-nav">
           <nav class="main-nav-left">
             <ul class="main-nav-left-list">
-              <li><a href="" class="main-nav-link">About</a></li>
+              <li><a href="#about" class="main-nav-link">About</a></li>
               <li>
-                <a href="" class="main-nav-link">Services and Prices</a>
+                <a href="#services" class="main-nav-link"
+                  >Services and Prices</a
+                >
               </li>
               <li><a href="" class="main-nav-link">Barbers</a></li>
               <li><a href="" class="main-nav-link">Contacts</a></li>
@@ -109,7 +111,7 @@
     </section>
 
     <!-- SERVICES SECTION -->
-    <section id="Services" class="services">
+    <section id="services" class="services">
       <div class="container services-container">
         <ul class="services-list">
           <li><div class="services-line"></div></li>
@@ -119,7 +121,65 @@
             </h2>
           </li>
         </ul>
-        <h3>Services and Prices</h3>
+        <h3 class="services-title">Services and Prices</h3>
+
+        <div class="table-container">
+          <table class="services-left-table">
+            <tr>
+              <th class="first-th service">Men's Haircut</th>
+              <td><div class="first-row-line"></div></td>
+              <td class="first-td price">from 300 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Beard Trim</th>
+              <td><div class="second-row-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Mustache Trim</th>
+              <td><div class="third-row-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Straight Razor Shave</th>
+              <td><div class="fourth-row-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+          </table>
+
+          <table class="services-right-table">
+            <tr>
+              <th class="first-th service">Trainee Haircut</th>
+              <td><div class="first-row-line right-first-line"></div></td>
+              <td class="first-td price">from 50 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Buzz Cut</th>
+              <td><div class="second-row-line right-second-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Kids Haircut (&lt;12 y.o.)</th>
+              <td><div class="third-row-line right-third-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+
+            <tr>
+              <th>Gray Coverage</th>
+              <td><div class="fourth-row-line right-fourth-line"></div></td>
+              <td>from 200 UAH</td>
+            </tr>
+          </table>
+        </div>
+
+        <a class="main-nav-btn btn-primary main-nav-link prices-btn" href=""
+          >BOOK A SERVICE</a
+        >
       </div>
     </section>
   </body>
