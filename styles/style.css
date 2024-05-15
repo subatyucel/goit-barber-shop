@@ -699,4 +699,9 @@ svg {
   letter-spacing: 0.2em;
   text-align: left;
   color: #303030;
+  transition: color 0.3s;
+}
+
+.footer-list a:hover {
+  color: #ff6c00;
 }
