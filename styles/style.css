@@ -469,3 +469,234 @@ td {
 .old-school-title {
   margin-bottom: 20px;
 }
+
+/* BARBERS */
+#barbers {
+  background-color: #f7f7f7;
+}
+
+.barbers-container {
+  padding-left: 185px;
+  padding-right: 185px;
+}
+
+.barbers-line {
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
+.barbers-title-list {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.barbers-heading {
+  font-family: "Open Sans" sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.barbers-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffff;
+  border-radius: 50%;
+  padding: 12px;
+  display: flex;
+}
+
+svg {
+  fill: #303030;
+  transition: fill 0.5s;
+}
+
+.social-link:hover svg {
+  fill: #ff6c00;
+}
+.barber-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.barber-card-name {
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.51px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.barber-card-text {
+  font-family: "Open Sans" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ff6c00;
+}
+
+.barbers-card-container {
+  display: flex;
+  gap: 30px;
+}
+
+/* GALLERY SECTION */
+.gallery-img-container {
+  padding-top: 44px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* CONTACT SECTION */
+
+.contact-form {
+  background-color: #191c26;
+}
+
+.contact-right {
+  background: url("../images/contact-bg.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  padding: 130px 100px;
+  position: relative;
+  z-index: -2;
+}
+
+.contact-right-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49.31px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+
+.contact-text {
+  color: #9da4bd;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.location-text {
+  display: inline;
+}
+
+.contact-link {
+  color: inherit;
+}
+
+.contact-right-bottom-line {
+  width: 60px;
+  height: 1px;
+  background-color: #9da4bd66;
+  opacity: 40%;
+}
+
+.contact-right-bottom-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Open Sans" sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-top: 70px;
+}
+
+.working-hours-text {
+  color: #9da4bd;
+  font-family: "Open Sans" sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.contact-right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #191c26;
+  filter: opacity(0.8);
+  z-index: -1;
+}
+
+.contact-container {
+  display: flex;
+  padding: 0;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #f7f7f7;
+  color: #9da4bd;
+  display: flex;
+  justify-content: space-between;
+  padding: 55px;
+}
+
+.footer p {
+  display: inline-block;
+  font-family: "Open Sans" sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  letter-spacing: 0.2em;
+  text-align: left;
+}
+
+.footer-line {
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
+.footer-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-list a {
+  font-family: "Open Sans" sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 14.98px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #303030;
+}
