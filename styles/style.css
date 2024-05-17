@@ -30,6 +30,10 @@ a {
   text-decoration: none;
 }
 
+.for-phones {
+  display: none;
+}
+
 /* UTILITIES */
 
 .btn-primary {
@@ -39,7 +43,7 @@ a {
   padding: 12px 25px;
   transition: background-color 0.5s;
   background-color: transparent;
-  font-size: 12px;
+  font-size: 0.67rem;
   font-weight: 600;
   line-height: 16.34px;
   letter-spacing: 0.1em;
@@ -57,7 +61,7 @@ a {
   border-radius: 25px;
   padding: 12px 25px;
   transition: background-color 0.5s;
-  font-size: 12px;
+  font-size: 0.67rem;
   font-weight: 600;
   line-height: 16.34px;
   letter-spacing: 0.09em;
@@ -89,7 +93,7 @@ a {
 }
 
 .nav-link {
-  font-size: 12px;
+  font-size: 0.67rem;
   font-weight: 600;
   line-height: 16.34px;
   letter-spacing: 0.1em;
@@ -107,13 +111,13 @@ a {
 }
 
 .section-sub-content {
-  font-size: 14px;
+  font-size: 0.78rem;
   line-height: 26px;
 }
 
 .section-title-dark {
   font-family: "Raleway", sans-serif;
-  font-size: 42px;
+  font-size: 2.33rem;
   font-weight: 700;
   line-height: 49.31px;
   letter-spacing: 0.05em;
@@ -123,7 +127,7 @@ a {
 
 .section-title-light {
   font-family: "Raleway" sans-serif;
-  font-size: 42px;
+  font-size: 2.33rem;
   font-weight: 700;
   line-height: 49.31px;
   letter-spacing: 0.05em;
@@ -132,7 +136,7 @@ a {
 }
 
 .section-subtitle {
-  font-size: 11px;
+  font-size: 0.61rem;
   font-weight: 600;
   line-height: 14.98px;
   letter-spacing: 0.1em;
@@ -140,7 +144,7 @@ a {
 
 .main-title {
   font-family: "Raleway", sans-serif;
-  font-size: 72px;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 84.53px;
   letter-spacing: 0.05em;

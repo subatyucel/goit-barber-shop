@@ -1,0 +1,43 @@
+@media (max-width: 485px) {
+  .sidebar {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+  }
+
+  .for-phones {
+    position: absolute;
+    top: 30px;
+    left: 31px;
+    display: block;
+  }
+
+  .container {
+    padding: 84px 31px;
+  }
+
+  .about-img-container {
+    display: none;
+  }
+
+  .table-container {
+    font-size: 14px;
+  }
+
+  table {
+    width: 418px;
+  }
+
+  .about-img-container {
+    grid-template-columns: 330px;
+    grid-template-rows: repeat(4, 360px);
+    grid-auto-flow: column;
+    padding: 44px 31px 84px 31px;
+  }
+
+  .contact-container {
+    padding: 0;
+  }
+}
