@@ -40,7 +40,7 @@
                 >
               </li>
               <li><a href="#barbers" class="main-nav-link">Barbers</a></li>
-              <li><a href="" class="main-nav-link">Contacts</a></li>
+              <li><a href="#contact" class="main-nav-link">Contacts</a></li>
             </ul>
           </nav>
 
@@ -112,6 +112,7 @@
 
     <!-- SERVICES SECTION -->
     <section id="services" class="services">
+      <div class="services-background"></div>
       <div class="container services-container">
         <ul class="services-list">
           <li><div class="services-line"></div></li>
@@ -432,11 +433,37 @@
       <div class="container contact-container">
         <form class="contact-form">
           <h2 class="form-title">Book a Service</h2>
-          <label for="name">Name*</label>
-          <input type="text" name="name" id="name" class="input-name" />
+          <div class="input-first-row">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-name"
+              placeholder="NAME*"
+            />
+
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              class="input-tel"
+              placeholder="TELEPHONE*"
+            />
+          </div>
+
+          <input
+            class="input-message"
+            type="text"
+            name="message"
+            id="message"
+            placeholder="MESSAGE*"
+          />
+
+          <button class="contact-btn">SEND</button>
         </form>
 
         <div class="contact-right">
+          <div class="background"></div>
           <h2 class="contact-right-title">Contacts</h2>
           <address class="contact-info-container">
             <ul class="contact-info-list">
@@ -479,6 +506,7 @@
       </div>
     </section>
 
+    <!-- FOOTER SECTION -->
     <footer id="footer" class="footer">
       <p>&copy Copyright 2022</p>
       <ul class="footer-list">
