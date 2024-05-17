@@ -24,20 +24,51 @@
 
   .table-container {
     font-size: 14px;
+    width: 418px;
   }
 
   table {
     width: 418px;
   }
 
-  .about-img-container {
-    grid-template-columns: 330px;
-    grid-template-rows: repeat(4, 360px);
-    grid-auto-flow: column;
-    padding: 44px 31px 84px 31px;
+  .first-row-line {
+    width: 130px;
+  }
+
+  .second-row-line {
+    width: 145px;
+  }
+
+  .third-row-line {
+    width: 117px;
+  }
+
+  .fourth-row-line {
+    width: 82px;
+  }
+
+  .right-first-line {
+    width: 120px;
+  }
+
+  .right-second-line {
+    width: 160px;
+  }
+
+  .right-third-line {
+    width: 75px;
+  }
+
+  .right-fourth-line {
+    width: 120px;
   }
 
   .contact-container {
     padding: 0;
+  }
+
+  .gallery-img-container {
+    grid-template-columns: 1fr;
+    padding-left: 40px;
   }
 }
