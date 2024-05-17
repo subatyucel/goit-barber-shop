@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 100px 39px;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 39px;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    width: 355px;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .main-title {
+    font-size: 48px;
+    line-height: 56.35px;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .about-img-container {
+    flex-direction: column;
+    gap: 55px;
+  }
+
+  .about-img-container img {
+    display: none;
+  }
+
+  .about-left-img {
+    width: 330px;
+    height: 235px;
+    background: url("../images/about-left-img.jpg");
+  }
+
+  .about-right-img {
+    width: 330px;
+    height: 235px;
+    background: url("../images/about-right-img.jpg");
+  }
+
+  .about-title {
+    font-size: 28px;
+    line-height: 32.87px;
+  }
+
+  .about-slogan {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .services-left-table,
+  .services-right-table {
+    background: none;
+    padding: 30px 40px;
+  }
+  .services-left-table {
+    padding-bottom: 0;
+  }
+  .services-right-table {
+    padding-top: 0;
+  }
+
+  .table-container {
+    flex-direction: column;
+    gap: 0;
+    background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+    width: 690px;
+  }
+
+  tr {
+    display: inline-block;
+  }
+
+  .old-school-container {
+    flex-direction: column-reverse;
+    gap: 44px;
+  }
+
+  .old-school-card-container {
+    justify-content: flex-end;
+  }
+
+  .barbers-container {
+    padding: 100px 159px;
+  }
+
+  .barbers-title-container {
+    text-align: center;
+  }
+
+  .barbers-card-container {
+    flex-direction: column;
+  }
+
+  .gallery-img-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .gallery-img-container img {
+    display: none;
+  }
+
+  .gallery-first {
+    width: 330px;
+    height: 360px;
+    background: url("../images/tablets-gallery-first.jpg");
+  }
+
+  .gallery-second {
+    width: 330px;
+    height: 360px;
+    background: url("../images/tablets-gallery-second.jpg");
+  }
+
+  .gallery-third {
+    width: 330px;
+    height: 360px;
+    background: url("../images/tablets-gallery-third.jpg");
+  }
+
+  .gallery-fourth {
+    width: 330px;
+    height: 360px;
+    background: url("../images/tablets-gallery-fourth.jpg");
+  }
+
+  .contact-container {
+    flex-direction: column;
+    padding: 0;
+  }
+}
