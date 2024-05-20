@@ -76,11 +76,6 @@
     flex-direction: column;
     gap: 0;
     background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
-    width: 690px;
-  }
-
-  tr {
-    display: inline-block;
   }
 
   .old-school-container {

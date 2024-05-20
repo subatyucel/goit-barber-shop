@@ -7,6 +7,10 @@
     width: 100%;
   }
 
+  .hero-content {
+    margin-top: 100px;
+  }
+
   .for-phones {
     position: absolute;
     top: 30px;
@@ -24,43 +28,7 @@
 
   .table-container {
     font-size: 14px;
-    width: 418px;
-  }
-
-  table {
-    width: 100%;
-  }
-
-  .first-row-line {
-    width: 130px;
-  }
-
-  .second-row-line {
-    width: 145px;
-  }
-
-  .third-row-line {
-    width: 117px;
-  }
-
-  .fourth-row-line {
-    width: 82px;
-  }
-
-  .right-first-line {
-    width: 120px;
-  }
-
-  .right-second-line {
-    width: 160px;
-  }
-
-  .right-third-line {
-    width: 75px;
-  }
-
-  .right-fourth-line {
-    width: 120px;
+    max-width: 100%;
   }
 
   .contact-container {
@@ -69,7 +37,26 @@
 
   .gallery-img-container {
     grid-template-columns: 1fr;
-    padding-left: 40px;
+  }
+
+  .gallery-first {
+    width: 100%;
+    background: url("../images/mobile-gallery-first.jpg");
+  }
+
+  .gallery-second {
+    width: 100%;
+    background: url("../images/mobile-gallery-secondjpg.jpg");
+  }
+
+  .gallery-third {
+    width: 100%;
+    background: url("../images/mobile-gallery-fourth.jpg");
+  }
+
+  .gallery-fourth {
+    width: 100%;
+    background: url("../images/mobile-gallery-third.jpg");
   }
   .footer-line {
     width: 40px;
@@ -80,5 +67,13 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+  }
+
+  .old-school-card-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 160px;
   }
 }
