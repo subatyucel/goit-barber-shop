@@ -1,4 +1,10 @@
 @media (max-width: 485px) {
+  /* GLOBAL */
+  .container {
+    padding: 84px 31px;
+  }
+
+  /* HERO SECTION */
   .sidebar {
     display: none;
   }
@@ -18,22 +24,29 @@
     display: block;
   }
 
-  .container {
-    padding: 84px 31px;
-  }
+  /* ABOUT SECTION */
 
   .about-img-container {
     display: none;
   }
 
-  .table-container {
-    font-size: 14px;
-    max-width: 100%;
-  }
+  /* SERVİCES SECTION */
 
   .contact-container {
     padding: 0;
   }
+
+  /* OLD SCHOOL SECTION */
+
+  .old-school-card-container {
+    justify-content: center;
+  }
+
+  .card {
+    width: 160px;
+  }
+
+  /* GALLERY SECTION */
 
   .gallery-img-container {
     grid-template-columns: 1fr;
@@ -58,6 +71,8 @@
     width: 100%;
     background: url("../images/mobile-gallery-third.jpg");
   }
+
+  /* FOOTER SECTION */
   .footer-line {
     width: 40px;
     height: 0.5px;
@@ -67,13 +82,5 @@
     align-items: center;
     justify-content: space-between;
     gap: 10px;
-  }
-
-  .old-school-card-container {
-    justify-content: center;
-  }
-
-  .card {
-    width: 160px;
   }
 }

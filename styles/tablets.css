@@ -1,7 +1,11 @@
 @media (max-width: 768px) {
+  /* GLOBAL */
+
   .container {
     padding: 100px 39px;
   }
+
+  /* HERO SECTION */
 
   .hero {
     display: flex;
@@ -28,6 +32,8 @@
   .main-nav {
     display: none;
   }
+
+  /* ABOUT SECTION */
 
   .about-img-container {
     flex-direction: column;
@@ -60,6 +66,8 @@
     line-height: 26px;
   }
 
+  /* SERVICES SECTION */
+
   .services-left-table,
   .services-right-table {
     background: none;
@@ -78,6 +86,7 @@
     background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
   }
 
+  /* OLD SCHOOL SECTION */
   .old-school-container {
     flex-direction: column-reverse;
     gap: 44px;
@@ -86,6 +95,8 @@
   .old-school-card-container {
     justify-content: flex-end;
   }
+
+  /* BARBERS SECTION */
 
   .barbers-container {
     padding: 100px 159px;
@@ -98,6 +109,8 @@
   .barbers-card-container {
     flex-direction: column;
   }
+
+  /* GALLERY SECTION */
 
   .gallery-img-container {
     grid-template-columns: 1fr 1fr;
@@ -131,6 +144,8 @@
     height: 360px;
     background: url("../images/tablets-gallery-fourth.jpg");
   }
+
+  /* CONTACT SECTION */
 
   .contact-container {
     flex-direction: column;

@@ -300,43 +300,31 @@ a {
   height: 1px;
   background-color: #9da4bd99;
   opacity: 20%;
-}
-
-.table-row {
-  display: flex;
-  align-items: baseline;
-  justify-items: left;
-}
-
-.table-container li {
-  color: #9da4bd;
-  flex: auto;
-}
-
-.table-row li:first-child {
-  text-align: left;
-}
-
-.table-row li:last-child {
-  text-align: right;
+  flex: 1;
 }
 
 .table-container {
   display: flex;
   gap: 20px;
   margin-bottom: 50px;
+  color: #9da4bd;
+}
+
+.table-row {
+  display: flex;
+  align-items: baseline;
 }
 
 .services-left-table {
   background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
-  padding: 50px 70px;
+  padding: 30px 40px;
   flex: 1;
 }
 
 .services-right-table {
   background: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
-  padding: 30px 40px;
   flex: 1;
+  padding: 30px 40px;
 }
 
 /* OLD SCHOOL SECTION */
