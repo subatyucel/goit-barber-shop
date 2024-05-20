@@ -32,8 +32,8 @@
 
   /* SERVİCES SECTION */
 
-  .contact-container {
-    padding: 0;
+  .table-container {
+    font-size: 14px;
   }
 
   /* OLD SCHOOL SECTION */
@@ -70,6 +70,11 @@
   .gallery-fourth {
     width: 100%;
     background: url("../images/mobile-gallery-third.jpg");
+  }
+
+  /* CONTACT SECTION */
+  .contact-container {
+    padding: 0;
   }
 
   /* FOOTER SECTION */
