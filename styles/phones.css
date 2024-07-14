@@ -5,6 +5,10 @@
   }
 
   /* HERO SECTION */
+  .menu-button {
+    right: 20px;
+  }
+
   .sidebar {
     display: none;
   }

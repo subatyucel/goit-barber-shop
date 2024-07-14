@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="./index.js" defer></script>
   </head>
   <body>
     <!-- HEADER - HERO SECTİON -->
@@ -85,7 +86,7 @@
           </address>
         </div>
 
-        <button type="button" class="menu-button">
+        <button type="button" class="menu-button" onclick="menuToggle()">
           <img src="./images/menu_40px.svg" alt="menu button" />
         </button>
 
@@ -107,6 +108,59 @@
             We work quickly, carefully, and tastefully.
           </p>
         </div>
+      </div>
+
+      <div class="hidden-menu" id="hidden-menu">
+        <div class="hidden-menu-links">
+          <ul class="links-list">
+            <li><a class="hidden-menu-link" href="#about">About</a></li>
+            <li>
+              <a class="hidden-menu-link" href="#services"
+                >Services and Prices</a
+              >
+            </li>
+            <li><a class="hidden-menu-link" href="#barbers">Barbers</a></li>
+            <li><a class="hidden-menu-link" href="#contact">Contacts</a></li>
+          </ul>
+
+          <ul class="hidden-menu-address">
+            <li>
+              <a class="hidden-menu-link" href="tel:+380441111111"
+                >+38 044 111 11 11</a
+              >
+            </li>
+            <li>
+              <a
+                class="btn-primary hidden-menu-btn"
+                href="https://github.com/subatyucel"
+                target="_blank"
+                >BOOK A SERVICE</a
+              >
+            </li>
+          </ul>
+
+          <ul class="hidden-menu-socials">
+            <li>
+              <a
+                class="black-link nav-link"
+                href="https://www.instagram.com/subat.yucel/"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
+            <li>
+              <a
+                class="black-link nav-link"
+                href="https://www.youtube.com/channel/UCknBuQKyLR1r3NQS5DxCOfg"
+                target="_blank"
+                >Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="menu-button" onclick="menuToggle()">
+          <img src="./images/close_40px.svg" alt="menu button" />
+        </button>
       </div>
     </header>
 

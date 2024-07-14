@@ -175,8 +175,52 @@ a {
 }
 
 /* HERO */
-.menu-button {
+
+.hidden-menu {
   display: none;
+  width: 100dvw;
+  height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 118px 40px;
+  z-index: 2;
+}
+
+.hidden-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.hidden-menu-btn {
+  color: #303030;
+}
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hidden-menu-link {
+  color: #303030;
+}
+
+.hidden-menu-link:hover,
+.hidden-menu-link:focus {
+  color: #ff6c00;
+}
+
+.links-list .menu-button {
+  display: none;
+}
+
+.hidden-menu-address {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .hero-background {
@@ -606,4 +650,8 @@ input:focus {
   display: flex;
   gap: 40px;
   align-items: center;
+}
+
+.active {
+  display: block;
 }
