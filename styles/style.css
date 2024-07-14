@@ -175,6 +175,10 @@ a {
 }
 
 /* HERO */
+.menu-button {
+  display: none;
+}
+
 .hero-background {
   position: absolute;
   top: 0;

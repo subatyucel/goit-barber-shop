@@ -7,6 +7,15 @@
 
   /* HERO SECTION */
 
+  .menu-button {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background: none;
+    border: none;
+  }
+
   .hero {
     display: flex;
     align-items: center;
